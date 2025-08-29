@@ -145,7 +145,7 @@ python api/item_api.py
 
 #### 测试流式响应
 ```bash
-curl -X POST "http://127.0.0.1:8000/branch1/chat" \
+curl -X POST "http://localhost:8000/branch1/chat" \
 -H "Content-Type: application/json" \
 -d '{
   "item_id": 3,
@@ -155,7 +155,7 @@ curl -X POST "http://127.0.0.1:8000/branch1/chat" \
 
 #### 测试非流式响应
 ```bash
-curl -X POST "http://127.0.0.1:8000/branch1/chat" \
+curl -X POST "http://localhost:8000/branch1/chat" \
 -H "Content-Type: application/json" \
 -d '{
   "item_id": 3,
@@ -166,5 +166,6 @@ curl -X POST "http://127.0.0.1:8000/branch1/chat" \
 
 #### 测试查询项目数据
 ```bash
-curl -X GET "http://127.0.0.1:5000/item/1"
+curl -X GET "http://localhost:5000/item/1"
+
 ```
