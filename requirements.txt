@@ -1,0 +1,29 @@
+# FastAPI & Server
+fastapi
+uvicorn[standard]
+flask
+flask-cors
+
+# Pydantic for data validation
+pydantic
+
+# DashScope LLM SDK
+dashscope
+
+# Database Connector (for MySQL)
+mysql-connector-python
+pymysql
+
+# Environment variable management
+python-dotenv
+
+# Sentence Transformers for embeddings
+sentence-transformers
+
+# Vector store for similarity search
+faiss-cpu
+
+# Common data handling libraries
+numpy
+pandas
+openai
